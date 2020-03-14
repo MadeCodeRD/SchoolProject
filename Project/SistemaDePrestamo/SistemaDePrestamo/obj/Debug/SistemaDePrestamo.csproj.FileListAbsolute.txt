@@ -2,8 +2,10 @@ C:\Users\Madelson Acosta\Desktop\Project\SistemaDePrestamo\SistemaDePrestamo\bin
 C:\Users\Madelson Acosta\Desktop\Project\SistemaDePrestamo\SistemaDePrestamo\bin\Debug\SistemaDePrestamo.exe
 C:\Users\Madelson Acosta\Desktop\Project\SistemaDePrestamo\SistemaDePrestamo\bin\Debug\SistemaDePrestamo.pdb
 C:\Users\Madelson Acosta\Desktop\Project\SistemaDePrestamo\SistemaDePrestamo\obj\Debug\SistemaDePrestamo.csprojResolveAssemblyReference.cache
-C:\Users\Madelson Acosta\Desktop\Project\SistemaDePrestamo\SistemaDePrestamo\obj\Debug\SistemaDePrestamo.Form1.resources
 C:\Users\Madelson Acosta\Desktop\Project\SistemaDePrestamo\SistemaDePrestamo\obj\Debug\SistemaDePrestamo.Properties.Resources.resources
 C:\Users\Madelson Acosta\Desktop\Project\SistemaDePrestamo\SistemaDePrestamo\obj\Debug\SistemaDePrestamo.csproj.GenerateResource.Cache
 C:\Users\Madelson Acosta\Desktop\Project\SistemaDePrestamo\SistemaDePrestamo\obj\Debug\SistemaDePrestamo.exe
 C:\Users\Madelson Acosta\Desktop\Project\SistemaDePrestamo\SistemaDePrestamo\obj\Debug\SistemaDePrestamo.pdb
+C:\Users\Madelson Acosta\Desktop\Project\SistemaDePrestamo\SistemaDePrestamo\obj\Debug\SistemaDePrestamo.Pantalla1.resources
+C:\Users\Madelson Acosta\Desktop\Project\SistemaDePrestamo\SistemaDePrestamo\obj\Debug\SistemaDePrestamo.Pantalla3.resources
+C:\Users\Madelson Acosta\Desktop\Project\SistemaDePrestamo\SistemaDePrestamo\obj\Debug\SistemaDePrestamo.Pantalla2.resources

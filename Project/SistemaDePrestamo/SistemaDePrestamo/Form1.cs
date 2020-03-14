@@ -21,5 +21,17 @@ namespace SistemaDePrestamo
         {
 
         }
+
+        private void btnAvanzar_Click(object sender, EventArgs e)
+        {
+
+            string nombre, apellido, direccion, sector, telefono, celular, email, provincia, docID;
+
+
+
+
+
+
+        }
     }
 }
