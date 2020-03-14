@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.btnSalir = new System.Windows.Forms.Button();
             this.btnGrabar = new System.Windows.Forms.Button();
             this.btnBuscar = new System.Windows.Forms.Button();
@@ -55,6 +56,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.btnAvanzar = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,6 +70,7 @@
             this.btnSalir.TabIndex = 8;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // btnGrabar
             // 
@@ -97,6 +101,7 @@
             this.btnNuevo.TabIndex = 5;
             this.btnNuevo.Text = "Nuevo";
             this.btnNuevo.UseVisualStyleBackColor = true;
+            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
             // 
             // groupBox1
             // 
@@ -148,14 +153,14 @@
             // 
             this.textMontoTotalPrestamo.Location = new System.Drawing.Point(304, 212);
             this.textMontoTotalPrestamo.Name = "textMontoTotalPrestamo";
-            this.textMontoTotalPrestamo.Size = new System.Drawing.Size(78, 20);
+            this.textMontoTotalPrestamo.Size = new System.Drawing.Size(145, 20);
             this.textMontoTotalPrestamo.TabIndex = 21;
             // 
             // textMonto
             // 
             this.textMonto.Location = new System.Drawing.Point(275, 172);
             this.textMonto.Name = "textMonto";
-            this.textMonto.Size = new System.Drawing.Size(78, 20);
+            this.textMonto.Size = new System.Drawing.Size(116, 20);
             this.textMonto.TabIndex = 20;
             // 
             // label10
@@ -304,12 +309,28 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Doc ID";
             // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // btnAvanzar
+            // 
+            this.btnAvanzar.Location = new System.Drawing.Point(599, 12);
+            this.btnAvanzar.Name = "btnAvanzar";
+            this.btnAvanzar.Size = new System.Drawing.Size(123, 29);
+            this.btnAvanzar.TabIndex = 10;
+            this.btnAvanzar.Text = "Avanzar";
+            this.btnAvanzar.UseVisualStyleBackColor = true;
+            this.btnAvanzar.Click += new System.EventHandler(this.btnAvanzar_Click);
+            // 
             // Pantalla2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(776, 355);
+            this.Controls.Add(this.btnAvanzar);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnGrabar);
@@ -352,5 +373,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textGarantia;
         private System.Windows.Forms.TextBox textCouta;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Button btnAvanzar;
     }
 }
