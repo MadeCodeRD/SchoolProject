@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.labelResultado = new System.Windows.Forms.Label();
-            this.textCantidadCambiar = new System.Windows.Forms.TextBox();
-            this.textResultado = new System.Windows.Forms.TextBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.LinkUSaRD = new System.Windows.Forms.LinkLabel();
-            this.LinkEURaTD = new System.Windows.Forms.LinkLabel();
-            this.LinkRDaUS = new System.Windows.Forms.LinkLabel();
-            this.btnNuevo = new System.Windows.Forms.Button();
-            this.btnCerrar = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.btnCerrar = new System.Windows.Forms.Button();
+            this.btnNuevo = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.LinkRDaUS = new System.Windows.Forms.LinkLabel();
+            this.LinkEURaTD = new System.Windows.Forms.LinkLabel();
+            this.LinkUSaRD = new System.Windows.Forms.LinkLabel();
+            this.textResultado = new System.Windows.Forms.TextBox();
+            this.textCantidadCambiar = new System.Windows.Forms.TextBox();
+            this.labelResultado = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -61,44 +61,37 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // label1
+            // label3
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(30, 102);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(161, 18);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Cantidad a Cambiar:";
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(107, 33);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(283, 18);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Casa De Cambio \'\'La Rubia Dorada\'\'";
             // 
-            // labelResultado
+            // btnCerrar
             // 
-            this.labelResultado.AutoSize = true;
-            this.labelResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelResultado.Location = new System.Drawing.Point(44, 198);
-            this.labelResultado.Name = "labelResultado";
-            this.labelResultado.Size = new System.Drawing.Size(84, 18);
-            this.labelResultado.TabIndex = 1;
-            this.labelResultado.Text = "Resultado";
-            this.labelResultado.Visible = false;
-            this.labelResultado.Click += new System.EventHandler(this.label2_Click);
+            this.btnCerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCerrar.Location = new System.Drawing.Point(353, 301);
+            this.btnCerrar.Name = "btnCerrar";
+            this.btnCerrar.Size = new System.Drawing.Size(125, 61);
+            this.btnCerrar.TabIndex = 6;
+            this.btnCerrar.Text = "Cerrar";
+            this.btnCerrar.UseVisualStyleBackColor = true;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
-            // textCantidadCambiar
+            // btnNuevo
             // 
-            this.textCantidadCambiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textCantidadCambiar.Location = new System.Drawing.Point(32, 136);
-            this.textCantidadCambiar.Name = "textCantidadCambiar";
-            this.textCantidadCambiar.Size = new System.Drawing.Size(159, 24);
-            this.textCantidadCambiar.TabIndex = 2;
-            // 
-            // textResultado
-            // 
-            this.textResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textResultado.Location = new System.Drawing.Point(32, 235);
-            this.textResultado.Name = "textResultado";
-            this.textResultado.Size = new System.Drawing.Size(159, 24);
-            this.textResultado.TabIndex = 3;
-            this.textResultado.Visible = false;
+            this.btnNuevo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNuevo.Location = new System.Drawing.Point(199, 301);
+            this.btnNuevo.Name = "btnNuevo";
+            this.btnNuevo.Size = new System.Drawing.Size(125, 61);
+            this.btnNuevo.TabIndex = 5;
+            this.btnNuevo.Text = "Nuevo";
+            this.btnNuevo.UseVisualStyleBackColor = true;
+            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
             // 
             // groupBox2
             // 
@@ -113,16 +106,16 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Escoja una Opcion:";
             // 
-            // LinkUSaRD
+            // LinkRDaUS
             // 
-            this.LinkUSaRD.AutoSize = true;
-            this.LinkUSaRD.Location = new System.Drawing.Point(36, 34);
-            this.LinkUSaRD.Name = "LinkUSaRD";
-            this.LinkUSaRD.Size = new System.Drawing.Size(118, 18);
-            this.LinkUSaRD.TabIndex = 0;
-            this.LinkUSaRD.TabStop = true;
-            this.LinkUSaRD.Text = "US$     A  RD$";
-            this.LinkUSaRD.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkUSaRD_LinkClicked);
+            this.LinkRDaUS.AutoSize = true;
+            this.LinkRDaUS.Location = new System.Drawing.Point(33, 107);
+            this.LinkRDaUS.Name = "LinkRDaUS";
+            this.LinkRDaUS.Size = new System.Drawing.Size(123, 18);
+            this.LinkRDaUS.TabIndex = 2;
+            this.LinkRDaUS.TabStop = true;
+            this.LinkRDaUS.Text = "RD$    A    US$";
+            this.LinkRDaUS.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkRDaUS_LinkClicked);
             // 
             // LinkEURaTD
             // 
@@ -135,58 +128,65 @@
             this.LinkEURaTD.Text = "EUR$     A    RD$";
             this.LinkEURaTD.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkEURaTD_LinkClicked);
             // 
-            // LinkRDaUS
+            // LinkUSaRD
             // 
-            this.LinkRDaUS.AutoSize = true;
-            this.LinkRDaUS.Location = new System.Drawing.Point(33, 107);
-            this.LinkRDaUS.Name = "LinkRDaUS";
-            this.LinkRDaUS.Size = new System.Drawing.Size(123, 18);
-            this.LinkRDaUS.TabIndex = 2;
-            this.LinkRDaUS.TabStop = true;
-            this.LinkRDaUS.Text = "RD$    A    US$";
-            this.LinkRDaUS.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkRDaUS_LinkClicked);
+            this.LinkUSaRD.AutoSize = true;
+            this.LinkUSaRD.Location = new System.Drawing.Point(36, 34);
+            this.LinkUSaRD.Name = "LinkUSaRD";
+            this.LinkUSaRD.Size = new System.Drawing.Size(118, 18);
+            this.LinkUSaRD.TabIndex = 0;
+            this.LinkUSaRD.TabStop = true;
+            this.LinkUSaRD.Text = "US$     A  RD$";
+            this.LinkUSaRD.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkUSaRD_LinkClicked);
             // 
-            // btnNuevo
+            // textResultado
             // 
-            this.btnNuevo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNuevo.Location = new System.Drawing.Point(199, 301);
-            this.btnNuevo.Name = "btnNuevo";
-            this.btnNuevo.Size = new System.Drawing.Size(125, 61);
-            this.btnNuevo.TabIndex = 5;
-            this.btnNuevo.Text = "Nuevo";
-            this.btnNuevo.UseVisualStyleBackColor = true;
-            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
+            this.textResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textResultado.Location = new System.Drawing.Point(32, 235);
+            this.textResultado.Name = "textResultado";
+            this.textResultado.Size = new System.Drawing.Size(159, 24);
+            this.textResultado.TabIndex = 3;
+            this.textResultado.Visible = false;
             // 
-            // btnCerrar
+            // textCantidadCambiar
             // 
-            this.btnCerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCerrar.Location = new System.Drawing.Point(353, 301);
-            this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(125, 61);
-            this.btnCerrar.TabIndex = 6;
-            this.btnCerrar.Text = "Cerrar";
-            this.btnCerrar.UseVisualStyleBackColor = true;
-            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
+            this.textCantidadCambiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textCantidadCambiar.Location = new System.Drawing.Point(32, 136);
+            this.textCantidadCambiar.Name = "textCantidadCambiar";
+            this.textCantidadCambiar.Size = new System.Drawing.Size(159, 24);
+            this.textCantidadCambiar.TabIndex = 2;
             // 
-            // label3
+            // labelResultado
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(107, 33);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(283, 18);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Casa De Cambio \'\'La Rubia Dorada\'\'";
+            this.labelResultado.AutoSize = true;
+            this.labelResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelResultado.Location = new System.Drawing.Point(44, 198);
+            this.labelResultado.Name = "labelResultado";
+            this.labelResultado.Size = new System.Drawing.Size(84, 18);
+            this.labelResultado.TabIndex = 1;
+            this.labelResultado.Text = "Resultado";
+            this.labelResultado.Visible = false;
+            this.labelResultado.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(30, 102);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(161, 18);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Cantidad a Cambiar:";
             // 
             // FormCasaDeCambio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(522, 403);
             this.Controls.Add(this.groupBox1);
             this.Name = "FormCasaDeCambio";
-            this.Text = ".:.FormCasaDeCambio";
+            this.Text = ".:.CasaDeCambio";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

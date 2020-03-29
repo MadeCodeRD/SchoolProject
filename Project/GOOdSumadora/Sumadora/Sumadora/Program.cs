@@ -16,7 +16,7 @@ namespace Sumadora
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormCasaDeCambio());
+            Application.Run(new FormSplash());
         }
     }
 }
