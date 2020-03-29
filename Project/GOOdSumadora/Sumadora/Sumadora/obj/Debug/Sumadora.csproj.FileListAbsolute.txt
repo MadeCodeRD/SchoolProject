@@ -17,3 +17,4 @@ C:\Users\Madelson Acosta\Desktop\All C# Programs\Windows Form\GOOdSumadora\Sumad
 C:\Users\Madelson Acosta\Desktop\All C# Programs\Windows Form\GOOdSumadora\Sumadora\Sumadora\obj\Debug\Sumadora.FormNominaSemanal.resources
 C:\Users\Madelson Acosta\Desktop\All C# Programs\Windows Form\GOOdSumadora\Sumadora\Sumadora\obj\Debug\Sumadora.Properties.Resources.resources
 C:\Users\Madelson Acosta\Desktop\All C# Programs\Windows Form\GOOdSumadora\Sumadora\Sumadora\obj\Debug\Sumadora.csproj.GenerateResource.Cache
+C:\Users\Madelson Acosta\Desktop\All C# Programs\Windows Form\GOOdSumadora\Sumadora\Sumadora\obj\Debug\Sumadora.FormCasaDeCambio.resources
