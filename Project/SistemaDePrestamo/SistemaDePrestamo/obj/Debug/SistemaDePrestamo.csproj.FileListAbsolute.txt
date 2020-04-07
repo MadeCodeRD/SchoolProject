@@ -9,3 +9,5 @@ C:\Users\Madelson Acosta\Desktop\Project\SistemaDePrestamo\SistemaDePrestamo\obj
 C:\Users\Madelson Acosta\Desktop\Project\SistemaDePrestamo\SistemaDePrestamo\obj\Debug\SistemaDePrestamo.Pantalla1.resources
 C:\Users\Madelson Acosta\Desktop\Project\SistemaDePrestamo\SistemaDePrestamo\obj\Debug\SistemaDePrestamo.Pantalla3.resources
 C:\Users\Madelson Acosta\Desktop\Project\SistemaDePrestamo\SistemaDePrestamo\obj\Debug\SistemaDePrestamo.Pantalla2.resources
+C:\Users\Madelson Acosta\Desktop\Project\SistemaDePrestamo\SistemaDePrestamo\obj\Debug\SistemaDePrestamo.SPLASH.resources
+C:\Users\Madelson Acosta\Desktop\Project\SistemaDePrestamo\SistemaDePrestamo\obj\Debug\SistemaDePrestamo.LOGIN.resources

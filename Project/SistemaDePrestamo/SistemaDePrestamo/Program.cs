@@ -16,7 +16,7 @@ namespace SistemaDePrestamo
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Pantalla1());
+            Application.Run(new SPLASH());
         }
     }
 }

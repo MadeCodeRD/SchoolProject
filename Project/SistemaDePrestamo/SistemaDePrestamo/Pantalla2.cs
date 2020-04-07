@@ -53,7 +53,9 @@ namespace SistemaDePrestamo
             pant3.setpantalla3_2(textApellido.Text);
             pant3.setpantalla3_3(textFecha.Text);
             pant3.setpantalla3_4(textNumPrestamo.Text);
-            pant3.setpantalla3_5(textMonto.Text);
+            // pant3.setpantalla3_5(textMonto.Text);
+            pant3.setpantalla3_6(textPrestamo.Text);
+
             pant3.Show();
 
 
@@ -67,7 +69,7 @@ namespace SistemaDePrestamo
         {
 
             textPrestamo.Clear();
-            textMonto.Clear();
+           // textMonto.Clear();
             textPeriodoPrestamo.Clear();
             textCouta.Clear();
             textMontoTotalPrestamo.Clear();
@@ -78,6 +80,46 @@ namespace SistemaDePrestamo
         private void btnSalir_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void textCouta_TextChanged(object sender, EventArgs e)
+        {
+           
+
+
+        }
+
+        private void textPrestamo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnCalcular_Click(object sender, EventArgs e)
+        {
+
+            int prestamo;
+            double taza;
+            int periodo;
+            int all;
+
+
+             int.TryParse(textPrestamo.Text, out prestamo);
+
+            textPrestamo.Text = string.Format("{0:C}", prestamo);
+
+             double.TryParse(texttazainteres.Text, out taza);
+
+            int.TryParse(textPeriodoPrestamo.Text, out periodo);
+
+            all = Convert.ToInt32(prestamo * taza * periodo);
+
+            textMontoTotalPrestamo.Text = string.Format("{0:C}",(all + prestamo));
+            textCouta.Text = string.Format("{0:C}",((all + prestamo) / periodo));
+
+
+
+
+
         }
     }
 }

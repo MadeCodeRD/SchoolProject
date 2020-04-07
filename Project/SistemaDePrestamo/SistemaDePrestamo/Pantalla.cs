@@ -49,6 +49,14 @@ namespace SistemaDePrestamo
             textMonto.Text = value;
         }
 
+        public void setpantalla3_6(string value)
+        {
+
+
+            textMonto.Text = value;
+
+        }
+
         private void btnNuevo_Click(object sender, EventArgs e)
         {
             textNumRecibo.Clear();
@@ -57,7 +65,7 @@ namespace SistemaDePrestamo
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
-            Close();
+            Application.Exit();
         }
     }
 }
