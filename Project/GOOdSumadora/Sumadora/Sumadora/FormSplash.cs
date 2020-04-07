@@ -33,8 +33,8 @@ namespace Sumadora
 
                 this.Hide();
                 timer1.Stop();
-                FormMenuPrincipal menu = new FormMenuPrincipal();
-                menu.Show();
+                LOGIN login = new LOGIN();
+                login.Show();
 
 
             }
