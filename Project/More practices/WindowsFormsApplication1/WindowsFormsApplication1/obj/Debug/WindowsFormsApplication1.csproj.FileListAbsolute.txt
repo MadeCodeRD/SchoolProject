@@ -1,0 +1,12 @@
+C:\Users\Madelson Acosta\Desktop\All C# Programs\More practices\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Madelson Acosta\Desktop\All C# Programs\More practices\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Madelson Acosta\Desktop\All C# Programs\More practices\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Madelson Acosta\Desktop\All C# Programs\More practices\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Madelson Acosta\Desktop\All C# Programs\More practices\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.FormMenu.resources
+C:\Users\Madelson Acosta\Desktop\All C# Programs\More practices\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.FormActualizar.resources
+C:\Users\Madelson Acosta\Desktop\All C# Programs\More practices\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.FormConsultas.resources
+C:\Users\Madelson Acosta\Desktop\All C# Programs\More practices\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.FormInsertar.resources
+C:\Users\Madelson Acosta\Desktop\All C# Programs\More practices\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Madelson Acosta\Desktop\All C# Programs\More practices\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Madelson Acosta\Desktop\All C# Programs\More practices\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Madelson Acosta\Desktop\All C# Programs\More practices\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
